@@ -1,5 +1,6 @@
 import React, { PureComponent, PropTypes } from 'react';
-import { G, Circle, Text, Line } from 'react-native-svg';
+import {Svg} from 'expo'
+const { G, Circle, Text, Line }  = Svg;
 import range from 'lodash.range';
 
 

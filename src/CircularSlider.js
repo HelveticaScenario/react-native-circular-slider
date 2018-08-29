@@ -1,6 +1,7 @@
 import React, { PureComponent, PropTypes } from 'react';
 import { PanResponder, View } from 'react-native';
-import Svg, { Circle, G, LinearGradient, Path, Defs, Stop } from 'react-native-svg';
+import {Svg} from 'expo'
+const { Circle, G, LinearGradient, Path, Defs, Stop } = Svg;
 import range from 'lodash.range';
 import { interpolateHcl as interpolateGradient } from 'd3-interpolate';
 import ClockFace from './ClockFace';
